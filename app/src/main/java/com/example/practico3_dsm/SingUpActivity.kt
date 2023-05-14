@@ -1,13 +1,10 @@
 package com.example.practico3_dsm
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Spinner
-import android.widget.Toast
 
 class SingUpActivity : AppCompatActivity() {
 
@@ -24,11 +21,11 @@ class SingUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sing_up)
 
-        name=findViewById(R.id.edtnombre)
-        apellido=findViewById(R.id.edtapellido)
-        email=findViewById(R.id.edtemail)
-        user=findViewById(R.id.edtusuario)
-        pass=findViewById(R.id.edtpass)
+        name=findViewById(R.id.nombres)
+        apellido=findViewById(R.id.apellidos)
+        email=findViewById(R.id.email)
+        user=findViewById(R.id.usuario)
+        pass=findViewById(R.id.pass)
         spin=findViewById(R.id.spinner)
         button=findViewById(R.id.button3)
 

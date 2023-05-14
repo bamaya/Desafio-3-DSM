@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editusuario"
+        android:id="@+id/user"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
@@ -42,23 +42,23 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editpass"
+        android:id="@+id/password"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
-        android:ems="10"
-        android:hint="Contraseña"
-        android:textColorHint="@color/white"
-        android:paddingLeft="20dp"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:drawableLeft="@drawable/ic_lock"
-        android:inputType="textPassword"
         android:background="@drawable/bg"
+        android:drawableLeft="@drawable/ic_lock"
+        android:ems="10"
+        android:hint=" Contraseña"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editusuario" />
+        app:layout_constraintTop_toBottomOf="@+id/user" />
 
     <Button
         android:id="@+id/button4"
@@ -72,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editpass" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

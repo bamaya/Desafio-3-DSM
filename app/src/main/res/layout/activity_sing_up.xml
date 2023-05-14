@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="Registrate"
+        android:text="Crear Cuenta"
         android:textColor="@color/white"
         android:textSize="50sp"
         android:textStyle="bold"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edtnombre"
+        android:id="@+id/nombres"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="22dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
     <EditText
-        android:id="@+id/edtapellido"
+        android:id="@+id/apellidos"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
@@ -55,10 +55,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtnombre" />
+        app:layout_constraintTop_toBottomOf="@+id/nombres" />
 
     <EditText
-        android:id="@+id/edtemail"
+        android:id="@+id/email"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
@@ -73,10 +73,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtapellido" />
+        app:layout_constraintTop_toBottomOf="@+id/apellidos" />
 
     <EditText
-        android:id="@+id/edtusuario"
+        android:id="@+id/usuario"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
@@ -90,10 +90,10 @@
         android:background="@drawable/bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtemail" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <EditText
-        android:id="@+id/edtpass"
+        android:id="@+id/pass"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
@@ -108,7 +108,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtusuario" />
+        app:layout_constraintTop_toBottomOf="@+id/usuario" />
 
     <Button
         android:id="@+id/button3"
@@ -116,14 +116,14 @@
         android:layout_height="60dp"
         android:layout_marginTop="32dp"
         android:backgroundTint="#DC040404"
-        android:text="Registrar"
+        android:text="Regístrate"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtpass" />
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
 
     <Spinner
         android:id="@+id/spinner"
