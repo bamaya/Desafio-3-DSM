@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cars Motors</string>
+
+    <array name="Tipousuario">
+        <item>Administrador</item>
+        <item>Cliente</item>
+    </array>
+</resources>
