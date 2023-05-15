@@ -22,6 +22,6 @@ class LoginActivity : AppCompatActivity() {
         dbh= DbHelper(this)
 
         loginbtn.setOnClickListener {
-          }
         }
     }
+}
